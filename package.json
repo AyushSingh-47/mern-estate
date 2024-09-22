@@ -1,0 +1,23 @@
+{
+  "name": "papabol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "demon": "^0.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "no": "^0.0.1",
+    "nodemon": "^3.1.7"
+  }
+}
